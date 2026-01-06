@@ -1,4 +1,4 @@
-## a SB
+## 一個傻逼
 
 Biped Robotics · Control Systems · Reinforcement Learning
 
