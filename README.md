@@ -1,18 +1,40 @@
-| 領域 | 技術核心 (Core Tech) | 實踐目標 (Implementation) |
-| :--- | :--- | :--- |
-| **狀態估測** | InEKF (Invariant EKF) | 結合 DRIFT 框架，利用李群對稱性減少估測漂移 |
-| **動力學** | Pinocchio Engine | 整合 URDF 模型，即時計算重心動量與 Jacobian 矩陣 |
-| **控制架構** | Whole-Body Control (WBC) | 基於多優先級任務優化，實現動態平衡行走 |
-| **模擬驗證** | NVIDIA Isaac Lab | 進行 Sim-to-Real 強化學習訓練與物理參數對齊 |
+<h3> 🛠 &nbsp;Tech Stack</h3>
 
----
+<table>
+  
+  <tr>
+    <th align="left">Theory</th>
+    <td>
+      <img src="https://img.shields.io/badge/Lie_Group/Algebra-30363D?style=flat&logo=geometry&logoColor=white" alt="Lie Group/Algebra">
+      <img src="https://img.shields.io/badge/WBC-30363D?style=flat&logo=control&logoColor=white" alt="WBC">
+      <img src="https://img.shields.io/badge/InEKF-30363D?style=flat&logo=mathematica&logoColor=white" alt="InEKF">
+    </td>
+  </tr>
+  
+  <tr>
+    <th align="left">Robotics</th>
+    <td>
+      <img src="https://img.shields.io/badge/ROS2-30363D?style=flat&logo=ros&logoColor=22314E" alt="ROS2">
+      <img src="https://img.shields.io/badge/STM32-30363D?style=flat&logo=stmicroelectronics&logoColor=03234B" alt="STM32">
+      <img src="https://img.shields.io/badge/Isaac_Sim-30363D?style=flat&logo=nvidia&logoColor=76B900" alt="Isaac Sim">
+      <img src="https://img.shields.io/badge/Isaac_Lab-30363D?style=flat&logo=nvidia&logoColor=76B900" alt="Isaac Lab">
+    </td>
+  </tr>
 
-### 🛠️ 技術棧 (Tech Stack)
+  <tr>
+    <th align="left">Tools</th>
+    <td>
+      <img src="https://img.shields.io/badge/Pinocchio-30363D?style=flat" alt="Pinocchio">
+      <img src="https://img.shields.io/badge/DRIFT-30363D?style=flat" alt="DRIFT">
+    </td>
+  </tr>
 
-| 分類 | 掌握工具 / 理論 | 備註 |
-| :--- | :--- | :--- |
-| **Robotics** | ROS 2, Pinocchio, Isaac Lab, DRIFT | 專注於中大型人形機器人系統 |
-| **Theory** | Lie Group/Algebra, Dynamics, Eng. Math | 堅持「理論引領實踐」的開發原則 |
-| **Hardware** | STM32, ESP32, Mechanical Design | 具備從硬體設計到低階通訊的整合能力 |
-| **Logic** | Redstone Circuit (Minecraft) | 早期系統思維的起點與邏輯訓練場 |
-
+  <tr>
+    <th align="left">Sys</th>
+    <td>
+      <img src="https://img.shields.io/badge/Linux-30363D?style=flat&logo=linux&logoColor=FCC624" alt="Linux">
+      <img src="https://img.shields.io/badge/Docker-30363D?style=flat&logo=docker&logoColor=2496ED" alt="Docker">
+      <img src="https://img.shields.io/badge/Git-30363D?style=flat&logo=git&logoColor=F05032" alt="Git">
+    </td>
+  </tr>
+</table>
